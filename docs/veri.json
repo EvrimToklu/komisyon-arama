@@ -1,5 +1,5 @@
 {
- "son_kontrol": "2026-11-03T07:35+00:00",
+ "son_kontrol": "2026-11-03T07:39+00:00",
  "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
  "belge_sayisi": 26,
  "okunan_belge": 25,
@@ -1369,9 +1369,14 @@
    ]
   },
   {
-   "anahtar": "zehra cehver",
-   "ad_tam": "Dr. Öğr. Üyesi Zehra CEHVER",
+   "anahtar": "zehra cevher",
+   "ad_tam": "Dr. Öğr. Üyesi Zehra CEVHER",
    "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    },
     {
      "komisyon": "Engelsiz Yaşam Komisyonu",
      "gorev": "Üye",
@@ -1381,17 +1386,6 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
-    }
-   ]
-  },
-  {
-   "anahtar": "zehra cevher",
-   "ad_tam": "Dr. Öğr. Üyesi Zehra CEVHER",
-   "komisyonlar": [
-    {
-     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
-     "gorev": "Üye",
-     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
     }
    ]
   },
