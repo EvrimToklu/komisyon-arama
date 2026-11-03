@@ -2,7 +2,7 @@
 """Komisyonlar sayfasindaki PDF'leri okuyup docs/veri.json dosyasini uretir.
 Hata durumunda mevcut veriyi bozmaz: sayfa okunamazsa veya hic uye bulunamazsa
 kod 1 ile cikar, GitHub de size e-posta gonderir."""
-import datetime, html, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request
+import datetime, hashlib, html, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request
 
 SAYFA = "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR"
 CIKTI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "veri.json")
@@ -24,6 +24,53 @@ def norm(s):
     for a, b in zip("çğöşüâîû", "cgosuaiu"):
         s = s.replace(a, b)
     return re.sub(r"\s+", " ", s).strip()
+
+# Metin katmani bozuk PDF'ler: adlarin bir kismi metin olarak okunamiyor. Tablo belgenin
+# goruntusunden elle aktarildi. Yalnizca ayni dosya (ayni SHA-256) icin gecerlidir; PDF
+# degisirse normal okumaya donulur ve logda uyari cikar.
+ELLE = {
+    "fc7e5652e8e90efa823e7c00e445327075df32e45a6fbb2917c9d099de7f48c4": """Adı Soyadı   Görevi
+Prof. Dr. Yusuf ÇETİN   Süreç Yöneticisi
+Prof. Dr. Evrim TOKLU   Sorumlu Dekan Yardımcısı
+Bayram DEMİR   Kalite Sorumlusu
+Prof. Dr. Mehmet YALÇIN   Bölüm Kalite Sorumlusu
+Prof. Dr. Murat ÇALIŞOĞLU   Bölüm Kalite Sorumlusu
+Prof. Dr. İhsan Nuri DEMİREL   Bölüm Kalite Sorumlusu
+Prof. Dr. Yasin KILIÇ   Bölüm Kalite Sorumlusu
+Prof. Dr. Fatih KARİP   Bölüm Kalite Sorumlusu
+Prof. Dr. Aydın KIZILASLAN   Bölüm Kalite Sorumlusu
+Dr. Öğr. Üyesi Betül ATAY   Bölüm Kalite Sorumlusu
+Prof. Dr. Mustafa GÜRBÜZ   Üye
+Doç. Dr. Mehmet Fatih ÖZCAN   Üye
+Doç. Dr. Burcu Seher ÇALIKOĞLU   Üye
+Doç. Dr. Samet ATA   Üye
+Doç. Dr. Hüseyin BAYRAM   Üye
+Doç. Dr. Alican KAYA   Üye
+Dr. Öğr. Üyesi Anıl KANDEMİR   Üye
+Dr. Öğr. Üyesi Halil ZEHİR   Üye
+Dr. Öğr. Üyesi Asuman UÇAR   Üye
+Dr. Öğr. Üyesi Büşra KOÇAK MACUN   Üye
+Dr. Öğr. Üyesi Betül ATAY   Üye
+Dr. Öğr. Üyesi Ahmet HARMANCI   Üye
+Dr. Öğr. Üyesi Büşra İnci GÜMÜŞ   Üye
+""" }
+
+def eksik_satir(metin):
+    """Adi okunamamis tablo satirlarini sayar: yalniz unvan ya da yalniz gorev kalan satir."""
+    m = BASLIK.search(metin) or re.search(r"^\s*Görevi\s*$\n?", metin, re.M | re.I)
+    if not m:
+        return 0
+    govde = metin[m.end():]
+    b = BITIS.search(govde)
+    govde = govde[:b.start()] if b else govde
+    say = 0
+    for satir in govde.splitlines():
+        ilk = re.split(r"\s{2,}", satir.strip())[0]
+        if ilk and UNVAN.sub("", ilk).strip() == "":
+            say += 1
+        elif satir[:30].strip() == "" and re.search(r"Üye|Başkan|Sorumlu|Yönetici", satir):
+            say += 1
+    return say
 
 def duzelt(metin):
     """PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi)."""
@@ -189,6 +236,12 @@ def main():
                 with open(yol, "wb") as f:
                     f.write(indir(url))
                 metin = pdf_metni(yol)
+                with open(yol, "rb") as bf:
+                    ozet = hashlib.sha256(bf.read()).hexdigest()
+                if ozet in ELLE:
+                    metin = ELLE[ozet]
+                elif eksik_satir(metin):
+                    print(f"UYARI: {ad}: {eksik_satir(metin)} satirda ad okunamadi; liste eksik olabilir.")
                 ham[url] = subprocess.run(["pdftotext", yol, "-"], capture_output=True, text=True).stdout
             except Exception as e:
                 print(f"UYARI: {ad}: {e}")
