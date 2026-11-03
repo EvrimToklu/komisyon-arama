@@ -1,14 +1,9 @@
 {
- "son_kontrol": "2026-11-03T07:39+00:00",
+ "son_kontrol": "2026-11-03T07:48+00:00",
  "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
  "belge_sayisi": 26,
- "okunan_belge": 25,
- "okunamayan": [
-  {
-   "komisyon": "Birim Bazlı Komisyonlar2026",
-   "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
-  }
- ],
+ "okunan_belge": 26,
+ "okunamayan": [],
  "kisiler": [
   {
    "anahtar": "abdulkadir kurt",
@@ -28,6 +23,11 @@
      "komisyon": "Erasmus-Farabi Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ERASMUS-FARAB%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -44,6 +44,16 @@
      "komisyon": "Erasmus-Farabi Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ERASMUS-FARAB%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -60,6 +70,16 @@
      "komisyon": "Öğrenci Hizmetleri ve Otomasyon Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%96%C4%9ERENC%C4%B0%20H%C4%B0ZMETLER%C4%B0%20VE%20OTOMASYON%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sosyal Bilgiler Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -118,6 +138,42 @@
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "anil kandemir",
+   "ad_tam": "Dr. Öğr. Üyesi Anıl KANDEMİR",
+   "komisyonlar": [
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -145,6 +201,11 @@
      "komisyon": "Birim İç Kontrol Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0R%C4%B0M%20%C4%B0%C3%87%20KONTROL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -221,6 +282,36 @@
      "komisyon": "Web Sayfası Komisyonu",
      "gorev": "Sorumlu Dekan Yardımcısı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/WEB%20SAYFASI%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -242,6 +333,27 @@
      "komisyon": "Engelsiz Yaşam Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ENGELS%C4%B0Z%20YA%C5%9EAM%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "betul atay",
+   "ad_tam": "Dr. Öğr. Üyesi Betül ATAY",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -272,6 +384,32 @@
    ]
   },
   {
+   "anahtar": "birgul cakir yildirim",
+   "ad_tam": "Doç. Dr. Birgül ÇAKIR YILDIRIM",
+   "komisyonlar": [
+    {
+     "komisyon": "Temel Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Müfredat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sınıf Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
    "anahtar": "burcu seher calikoglu",
    "ad_tam": "Doç. Dr. Burcu Seher ÇALIKOĞLU",
    "komisyonlar": [
@@ -284,6 +422,21 @@
      "komisyon": "Engelsiz Yaşam Komisyonu",
      "gorev": "Başkan",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ENGELS%C4%B0Z%20YA%C5%9EAM%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -306,6 +459,16 @@
      "komisyon": "Kütüphane ve Yayın Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/K%C3%9CT%C3%9CPHANE%20VE%20YAYIN%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Resim Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -322,6 +485,11 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -364,6 +532,16 @@
      "komisyon": "Öğrenci Temsilciliği Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%96%C4%9ERENC%C4%B0%20TEMS%C4%B0LC%C4%B0L%C4%B0%C4%9E%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Müzik Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -375,6 +553,21 @@
      "komisyon": "Bilimsel, Kültürel ve Spor Faaliyetleri Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL,%20K%C3%9CLT%C3%9CREL%20VE%20SPOR%20FAAL%C4%B0YETLER%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Müzik Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -446,6 +639,31 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Sorumlu Dekan Yardımcısı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -473,6 +691,11 @@
      "komisyon": "Danışma Kurul Komisyonu",
      "gorev": "Güzel Sanatlar Eğitimi Bölüm Başkanı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -521,6 +744,11 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -532,6 +760,21 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sosyal Bilgiler Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -548,6 +791,16 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -569,6 +822,11 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -585,6 +843,42 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Müfradat Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Resim Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "ibrahim ozgul",
+   "ad_tam": "Prof. Dr. İbrahim ÖZGÜL",
+   "komisyonlar": [
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sosyal Bilgiler Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -596,6 +890,21 @@
      "komisyon": "Danışma Kurul Komisyonu",
      "gorev": "Eğitim Bilimleri Bölüm Başkanı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -612,6 +921,11 @@
      "komisyon": "Çevre Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%87EVRE%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -628,6 +942,21 @@
      "komisyon": "Uluslararasılaşma Komisyonu",
      "gorev": "Görev belirtilmemiş",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ULUSLARARASILA%C5%9EMA%20KOM%C4%B0SYONU%20(1).pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -644,6 +973,16 @@
      "komisyon": "Öğrenci Temsilciliği Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%96%C4%9ERENC%C4%B0%20TEMS%C4%B0LC%C4%B0L%C4%B0%C4%9E%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -666,6 +1005,21 @@
      "komisyon": "Erasmus-Farabi Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ERASMUS-FARAB%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Müzik Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -697,7 +1051,7 @@
   },
   {
    "anahtar": "mehmet fatih ozcan",
-   "ad_tam": "Doç. Dr. Mehmet Fatih ÖZCAN",
+   "ad_tam": "Prof. Dr. Mehmet Fatih ÖZCAN",
    "komisyonlar": [
     {
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
@@ -713,6 +1067,11 @@
      "komisyon": "Web Sayfası Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/WEB%20SAYFASI%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -734,6 +1093,11 @@
      "komisyon": "Psikolojik Danışmanlık ve Rehberlik Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/PS%C4%B0KOLOJ%C4%B0K%20DANI%C5%9EMANLIK%20VE%20REHBERL%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -755,6 +1119,11 @@
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
      "gorev": "Bölüm Kalite Sorumlusu",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -766,6 +1135,47 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "metin erkal",
+   "ad_tam": "Dr. Öğr. Üyesi Metin ERKAL",
+   "komisyonlar": [
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -782,6 +1192,27 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "muhammet celal uras",
+   "ad_tam": "Dr. Öğr. Üyesi Muhammet Celal URAS",
+   "komisyonlar": [
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -803,6 +1234,11 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -814,6 +1250,21 @@
      "komisyon": "Danışma Kurul Komisyonu",
      "gorev": "Temel Eğitim Bölüm Başkanı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Müfredat Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -851,6 +1302,21 @@
      "komisyon": "Psikolojik Danışmanlık ve Rehberlik Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/PS%C4%B0KOLOJ%C4%B0K%20DANI%C5%9EMANLIK%20VE%20REHBERL%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -862,6 +1328,21 @@
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -873,6 +1354,21 @@
      "komisyon": "Okul Uygulamaları Koordinatörlüğü ve İlgili Komisyon",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/OKUL%20UYGULAMALARI%20KOORD%C4%B0NAT%C3%96RL%C3%9C%C4%9E%C3%9C%20VE%20%C4%B0LG%C4%B0L%C4%B0%20KOM%C4%B0SYON.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Resim Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -884,6 +1380,21 @@
      "komisyon": "Öğrenci Hizmetleri ve Otomasyon Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%96%C4%9ERENC%C4%B0%20H%C4%B0ZMETLER%C4%B0%20VE%20OTOMASYON%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Okul Öncesi Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -926,6 +1437,16 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -942,6 +1463,16 @@
      "komisyon": "Eğitim Öğretim Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/E%C4%9E%C4%B0T%C4%B0M%20%C3%96%C4%9ERET%C4%B0M%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1005,6 +1536,16 @@
      "komisyon": "Kantin Denetleme Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/KANT%C4%B0N%20DENETLEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri (PDR Anabilim Dalı) Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1016,6 +1557,21 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Müfredat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1027,6 +1583,21 @@
      "komisyon": "Kantin Denetleme Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/KANT%C4%B0N%20DENETLEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Müfredat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sınıf Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1069,6 +1640,16 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Okul Öncesi Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1085,6 +1666,16 @@
      "komisyon": "Ders ve Sınav Programları Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DERS%20VE%20SINAV%20PROGRAMLARI%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Temel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Sınıf Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1122,6 +1713,21 @@
      "komisyon": "Bilimsel, Kültürel ve Spor Faaliyetleri Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL,%20K%C3%9CLT%C3%9CREL%20VE%20SPOR%20FAAL%C4%B0YETLER%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1152,6 +1758,17 @@
    ]
   },
   {
+   "anahtar": "serkan bozan",
+   "ad_tam": "Dr. Öğr. Üyesi Serkan BOZAN",
+   "komisyonlar": [
+    {
+     "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    }
+   ]
+  },
+  {
    "anahtar": "serkan kapucu",
    "ad_tam": "Prof. Dr. Serkan KAPUCU",
    "komisyonlar": [
@@ -1169,6 +1786,11 @@
      "komisyon": "Öğrenci Temsilciliği Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%96%C4%9ERENC%C4%B0%20TEMS%C4%B0LC%C4%B0L%C4%B0%C4%9E%C4%B0%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1185,6 +1807,16 @@
      "komisyon": "Kütüphane ve Yayın Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/K%C3%9CT%C3%9CPHANE%20VE%20YAYIN%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1232,6 +1864,11 @@
      "komisyon": "Çevre Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C3%87EVRE%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Sosyal Bilgiler Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1248,6 +1885,16 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1264,6 +1911,16 @@
      "komisyon": "Kütüphane ve Yayın Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/K%C3%9CT%C3%9CPHANE%20VE%20YAYIN%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Okul Öncesi Eğitim Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1286,6 +1943,21 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Müzik Eğitimi Anabilim Dalı Akreditasyon Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1297,6 +1969,21 @@
      "komisyon": "Birim İç Kontrol Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0R%C4%B0M%20%C4%B0%C3%87%20KONTROL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Güzel Sanatlar Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1313,6 +2000,16 @@
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
      "gorev": "Bölüm Kalite Sorumlusu",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Türkçe ve Sosyal Bilimler Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1334,6 +2031,11 @@
      "komisyon": "Kütüphane ve Yayın Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/K%C3%9CT%C3%9CPHANE%20VE%20YAYIN%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
@@ -1386,6 +2088,21 @@
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/STRATEJ%C4%B0K%20PLAN%20VE%20HAZIRLIK%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Ön Değerlendirme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Bölümü Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
+    },
+    {
+     "komisyon": "Özel Eğitim Öğrenci Temsilci Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
    ]
   },
