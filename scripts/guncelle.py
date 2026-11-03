@@ -16,6 +16,7 @@ ISTISNA = {"bayram demir"}
 BITIS = re.compile(r"BİRİNCİ\s+BÖLÜM|^\s*Amaç\b|^\s*Madde\s+\d", re.M)
 BASLIK = re.compile(r"Ad[ıi]\s*[-/]?\s*Soyad[ıi]\b[^\n]*\n", re.I)
 
+BIRIM_SATIR = re.compile(r"^\d+\s+(.+?)\s*(\(Başkan\))?$")
 TEK_SATIR = re.compile(r"^(.*[A-ZÇĞİÖŞÜ]{2,})(?:\s+(.*[a-zçğıöşü].*))?$")
 
 def norm(s):
@@ -24,10 +25,53 @@ def norm(s):
         s = s.replace(a, b)
     return re.sub(r"\s+", " ", s).strip()
 
+def duzelt(metin):
+    """PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi)."""
+    return re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
+
+def tr_baslik(s):
+    """BUYUK HARFLI komisyon basligini okunur hale getirir."""
+    kucuk = lambda w: w.replace("I", "ı").replace("İ", "i").lower()
+    sonuc = []
+    for w in s.split():
+        if w.strip("()") == "PDR":
+            sonuc.append(w)
+        elif w == "VE":
+            sonuc.append("ve")
+        else:
+            i = 1 if w[0] == "(" else 0
+            sonuc.append(w[:i + 1] + kucuk(w[i + 1:]))
+    return " ".join(sonuc)
+
+def birim_bolumleri(metin):
+    """Birim Bazli belge: BUYUK HARFLI baslik, altinda '1  Unvan Ad SOYAD (Baskan)' satirlari."""
+    bolumler, bekleyen, gecerli = [], [], None
+    for satir in duzelt(metin).splitlines():
+        duz = satir.strip()
+        if not duz:
+            continue
+        m = BIRIM_SATIR.match(duz)
+        if m:
+            if bekleyen:
+                baslik = " ".join(bekleyen)
+                # Belgede bir baslikta "AKADEMIK TESVIK KOMISYONU" iki kez yazilmis.
+                baslik = re.sub(r"(\b[^()]+? KOMİSYONU) \1$", r"\1", baslik)
+                gecerli = []
+                bolumler.append((tr_baslik(baslik), gecerli))
+                bekleyen = []
+            if gecerli is None:
+                continue
+            ad_tam = m.group(1).strip()
+            ad = UNVAN.sub("", ad_tam).strip()
+            if len(ad.split()) >= 2:
+                gecerli.append({"ad_tam": ad_tam, "ad": ad, "gorev": "Başkan" if m.group(2) else "Üye"})
+        elif duz == duz.upper() and not duz.endswith("KOMİSYONLAR"):
+            bekleyen.append(duz)
+    return [b for b in bolumler if b[1]]
+
 def uyeler(metin):
     """Yalnizca 'Adi Soyadi / Gorevi' tablosunu okur; tablo yoksa None dondurur."""
-    # PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi).
-    metin = re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
+    metin = duzelt(metin)
     # Baslik bazen iki satira bolunur ("Adi Soyadi" ayri, "Gorevi" ayri).
     m = BASLIK.search(metin) or re.search(r"^\s*Görevi\s*$\n?", metin, re.M | re.I)
     if not m:
@@ -110,15 +154,17 @@ def veri_olustur(belgeler, simdi):
     kisiler, okunamayan, okunan = {}, [], 0
     for ad, url, metin in belgeler:
         liste = uyeler(metin) if metin else None
-        if not liste:
+        bolumler = [(ad, liste)] if liste else (birim_bolumleri(metin) if metin else [])
+        if not bolumler:
             okunamayan.append({"komisyon": ad, "url": url})
             continue
         okunan += 1
-        for u in filter(aranabilir, liste):
-            k = kisiler.setdefault(norm(u["ad"]), {"ad_tam": u["ad_tam"], "komisyonlar": []})
-            if unvan_derecesi(u["ad_tam"]) > unvan_derecesi(k["ad_tam"]):
-                k["ad_tam"] = u["ad_tam"]
-            k["komisyonlar"].append({"komisyon": ad, "gorev": u["gorev"], "url": url})
+        for bolum, satirlar in bolumler:
+            for u in filter(aranabilir, satirlar):
+                k = kisiler.setdefault(norm(u["ad"]), {"ad_tam": u["ad_tam"], "komisyonlar": []})
+                if unvan_derecesi(u["ad_tam"]) > unvan_derecesi(k["ad_tam"]):
+                    k["ad_tam"] = u["ad_tam"]
+                k["komisyonlar"].append({"komisyon": bolum, "gorev": u["gorev"], "url": url})
     return {"son_kontrol": simdi, "kaynak": SAYFA, "belge_sayisi": len(belgeler),
             "okunan_belge": okunan, "okunamayan": okunamayan,
             "kisiler": [dict(anahtar=a, **kisiler[a]) for a in sorted(kisiler)]}
