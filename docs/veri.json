@@ -1,5 +1,5 @@
 {
- "son_kontrol": "2026-11-03T07:52+00:00",
+ "son_kontrol": "2026-11-03T08:05+00:00",
  "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
  "belge_sayisi": 26,
  "okunan_belge": 26,
@@ -98,6 +98,11 @@
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
     },
     {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
      "komisyon": "Web Sayfası Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/WEB%20SAYFASI%20KOM%C4%B0SYONU.pdf"
@@ -161,6 +166,11 @@
    "ad_tam": "Dr. Öğr. Üyesi Anıl KANDEMİR",
    "komisyonlar": [
     {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
      "komisyon": "Eğitim Bilimleri Bölümü Müfradat Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
@@ -201,6 +211,11 @@
      "komisyon": "Birim İç Kontrol Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0R%C4%B0M%20%C4%B0%C3%87%20KONTROL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Matematik ve Fen Bilimleri Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
@@ -262,6 +277,11 @@
      "komisyon": "İstek ve Şikayet Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C4%B0STEK%20VE%20%C5%9E%C4%B0KAYET%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Bölüm Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Kantin Denetleme Komisyonu",
@@ -333,6 +353,11 @@
      "komisyon": "Engelsiz Yaşam Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ENGELS%C4%B0Z%20YA%C5%9EAM%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     }
    ]
   },
@@ -340,6 +365,16 @@
    "anahtar": "betul atay",
    "ad_tam": "Dr. Öğr. Üyesi Betül ATAY",
    "komisyonlar": [
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Bölüm Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
     {
      "komisyon": "Bilgisayar ve Öğretim Teknolojileri Eğitim Bölümü Ön Değerlendirme Komisyonu",
      "gorev": "Üye",
@@ -424,6 +459,11 @@
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ENGELS%C4%B0Z%20YA%C5%9EAM%20KOM%C4%B0SYONU.pdf"
     },
     {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
      "komisyon": "Özel Eğitim Bölümü Ön Değerlendirme Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
@@ -456,6 +496,11 @@
    "ad_tam": "Dr. Öğr. Üyesi Büşra İnci GÜMÜŞ",
    "komisyonlar": [
     {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
      "komisyon": "Kütüphane ve Yayın Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/K%C3%9CT%C3%9CPHANE%20VE%20YAYIN%20KOM%C4%B0SYONU.pdf"
@@ -476,6 +521,11 @@
    "anahtar": "busra kocak macun",
    "ad_tam": "Dr. Öğr. Üyesi Büşra KOÇAK MACUN",
    "komisyonlar": [
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
     {
      "komisyon": "Stratejik Plan ve Hazırlık Komisyonu",
      "gorev": "Üye",
@@ -612,7 +662,7 @@
     },
     {
      "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
-     "gorev": "Görev belirtilmemiş",
+     "gorev": "Sorumlu Dekan Yardımcısı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
@@ -693,6 +743,11 @@
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
     },
     {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Bölüm Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
+    },
+    {
      "komisyon": "Güzel Sanatlar Eğitimi Bölümü Ön Değerlendirme Komisyonu",
      "gorev": "Başkan",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
@@ -739,6 +794,11 @@
      "komisyon": "Akreditasyon Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/AKRED%C4%B0TASYON%20KOM%C4%B0SYONU%20Ekim%202026.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
@@ -890,6 +950,11 @@
      "komisyon": "Danışma Kurul Komisyonu",
      "gorev": "Eğitim Bilimleri Bölüm Başkanı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Bölüm Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Eğitim Bilimleri Bölümü Ön Değerlendirme Komisyonu",
@@ -1244,6 +1309,11 @@
      "komisyon": "Danışma Kurul Komisyonu",
      "gorev": "Temel Eğitim Bölüm Başkanı",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/DANI%C5%9EMA%20KURUL%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Bölüm Kalite Sorumlusu",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Temel Eğitim Bölümü Yatay Geçiş ve Muafiyet Komisyonu",
@@ -2045,6 +2115,11 @@
      "komisyon": "İstek ve Şikayet Komisyonu",
      "gorev": "Başkan",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/%C4%B0STEK%20VE%20%C5%9E%C4%B0KAYET%20KOM%C4%B0SYONU.pdf"
+    },
+    {
+     "komisyon": "Kalite Kontrol ve İnceleme Komisyonu",
+     "gorev": "Süreç Yöneticisi",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/2026%20Ekim%20Son%20KAL%C4%B0TE%20KONTROL%20VE%20%C4%B0NCELEME%20KOM%C4%B0SYONU.pdf"
     },
     {
      "komisyon": "Kütüphane ve Yayın Komisyonu",
