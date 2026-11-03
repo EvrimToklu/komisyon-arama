@@ -16,6 +16,8 @@ ISTISNA = {"bayram demir"}
 BITIS = re.compile(r"BİRİNCİ\s+BÖLÜM|^\s*Amaç\b|^\s*Madde\s+\d", re.M)
 BASLIK = re.compile(r"Ad[ıi]\s*[-/]?\s*Soyad[ıi]\b[^\n]*\n", re.I)
 
+TEK_SATIR = re.compile(r"^(.*[A-ZÇĞİÖŞÜ]{2,})(?:\s+(.*[a-zçğıöşü].*))?$")
+
 def norm(s):
     s = s.replace("İ", "i").replace("I", "i").replace("ı", "i").lower()
     for a, b in zip("çğöşüâîû", "cgosuaiu"):
@@ -24,7 +26,8 @@ def norm(s):
 
 def uyeler(metin):
     """Yalnizca 'Adi Soyadi / Gorevi' tablosunu okur; tablo yoksa None dondurur."""
-    m = BASLIK.search(metin)
+    # Baslik bazen iki satira bolunur ("Adi Soyadi" ayri, "Gorevi" ayri).
+    m = BASLIK.search(metin) or re.search(r"^\s*Görevi\s*$\n?", metin, re.M | re.I)
     if not m:
         return None
     govde = metin[m.end():]
@@ -34,6 +37,10 @@ def uyeler(metin):
     sonuc = []
     for satir in govde.splitlines():
         sutun = [p.strip() for p in re.split(r"\s{2,}", satir.strip()) if p.strip()]
+        if len(sutun) == 1 and UNVAN.match(sutun[0]):
+            # Tek bosluklu satir: ad, BUYUK HARFLI soyadla biter, kalani gorevdir.
+            t = TEK_SATIR.match(sutun[0])
+            sutun = [t.group(1), (t.group(2) or "Görev belirtilmemiş").strip()] if t else sutun
         if len(sutun) < 2:
             continue
         ad_tam, gorev = sutun[0], sutun[-1]
@@ -123,7 +130,7 @@ def main():
     linkler = baglantilar(sayfa)
     if not linkler:
         sys.exit("HATA: Sayfada komisyon PDF'i bulunamadi; mevcut veri korundu.")
-    belgeler = []
+    belgeler, ham = [], {}
     with tempfile.TemporaryDirectory() as d:
         for ad, url in linkler:
             metin = None
@@ -132,6 +139,7 @@ def main():
                 with open(yol, "wb") as f:
                     f.write(indir(url))
                 metin = pdf_metni(yol)
+                ham[url] = subprocess.run(["pdftotext", yol, "-"], capture_output=True, text=True).stdout
             except Exception as e:
                 print(f"UYARI: {ad}: {e}")
             belgeler.append((ad, url, metin))
@@ -146,6 +154,8 @@ def main():
     for o in veri["okunamayan"]:
         print("OKUNAMADI:", o["komisyon"])
         print(tani(metinler.get(o["url"])))
+        print("  -- duz metin --")
+        print(tani(ham.get(o["url"])))
 
 if __name__ == "__main__":
     main()
