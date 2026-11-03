@@ -60,12 +60,14 @@ def baglantilar(sayfa_html):
     bulunan, gorulen = [], set()
     for href, ic in re.findall(r'<a\b[^>]*href=["\']([^"\']+\.pdf)["\'][^>]*>(.*?)</a>', sayfa_html, re.S | re.I):
         tam = urllib.parse.urljoin(SAYFA, html.unescape(href).strip())
+        # Dosya adlarinda bosluk ve Turkce harf var; indirmeden once kodlanmali.
+        tam = urllib.parse.quote(tam, safe=":/?&=%#+,;@!$'()*")
         if "komisyonlar" not in norm(urllib.parse.unquote(tam)) or tam in gorulen:
             continue
         gorulen.add(tam)
         ad = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", ic)))
         ad = re.sub(r"\bPDF\b|Belgeyi görüntüle|›", "", ad).strip()
-        if not ad:
+        if not ad or len(ad) > 80:  # bos ya da aciklama metni iceren baglanti
             ad = os.path.splitext(os.path.basename(urllib.parse.unquote(tam)))[0].title()
         bulunan.append((ad, tam))
     return bulunan
