@@ -1,5 +1,5 @@
 {
- "son_kontrol": "2026-11-03T08:05+00:00",
+ "son_kontrol": "2026-11-03T10:56+00:00",
  "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
  "belge_sayisi": 26,
  "okunan_belge": 26,
@@ -995,8 +995,8 @@
    ]
   },
   {
-   "anahtar": "k. funda nayir ekiz",
-   "ad_tam": "Prof. Dr. K. Funda NAYİR EKİZ",
+   "anahtar": "kadriye funda nayirekiz",
+   "ad_tam": "Prof. Dr. Kadriye Funda NAYİREKİZ",
    "komisyonlar": [
     {
      "komisyon": "Kütüphane ve Yayın Komisyonu",
@@ -1005,7 +1005,7 @@
     },
     {
      "komisyon": "Uluslararasılaşma Komisyonu",
-     "gorev": "Görev belirtilmemiş",
+     "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ULUSLARARASILA%C5%9EMA%20KOM%C4%B0SYONU%20(1).pdf"
     },
     {
@@ -1057,7 +1057,7 @@
    "komisyonlar": [
     {
      "komisyon": "Uluslararasılaşma Komisyonu",
-     "gorev": "Görev belirtilmemiş",
+     "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ULUSLARARASILA%C5%9EMA%20KOM%C4%B0SYONU%20(1).pdf"
     }
    ]
@@ -2175,7 +2175,7 @@
    "komisyonlar": [
     {
      "komisyon": "Uluslararasılaşma Komisyonu",
-     "gorev": "Görev belirtilmemiş",
+     "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/ULUSLARARASILA%C5%9EMA%20KOM%C4%B0SYONU%20(1).pdf"
     }
    ]
