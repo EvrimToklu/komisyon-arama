@@ -1,0 +1,23 @@
+name: Komisyon verisini guncelle
+on:
+  schedule:
+    - cron: "17 1 * * *"   # Her gece 04:17 (Turkiye saati)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: PDF araclarini kur
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: PDF'leri oku
+        run: python3 scripts/guncelle.py
+      - name: Sonucu kaydet
+        run: |
+          git config user.name "komisyon-guncelleme"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/veri.json
+          git diff --cached --quiet || (git commit -m "Komisyon verisi guncellendi" && git push)
