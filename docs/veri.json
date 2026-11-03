@@ -1,5 +1,5 @@
 {
- "son_kontrol": "2026-11-03T07:48+00:00",
+ "son_kontrol": "2026-11-03T07:52+00:00",
  "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
  "belge_sayisi": 26,
  "okunan_belge": 26,
@@ -1199,18 +1199,12 @@
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     },
     {
-     "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
+     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Akademik Teşvik Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
-    }
-   ]
-  },
-  {
-   "anahtar": "muhammet celal uras",
-   "ad_tam": "Dr. Öğr. Üyesi Muhammet Celal URAS",
-   "komisyonlar": [
+    },
     {
-     "komisyon": "Matematik ve Fen Bilimleri Eğitimi Bölümü Akademik Teşvik Komisyonu",
+     "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/Birim%20Bazl%C4%B1%20Komisyonlar2026.pdf"
     }
@@ -1754,13 +1748,7 @@
      "komisyon": "Yatay Geçiş Muafiyet ve İntibak Komisyonu",
      "gorev": "Üye",
      "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/YATAY%20GE%C3%87%C4%B0%C5%9E%20MUAF%C4%B0YET%20VE%20%C4%B0NT%C4%B0BAK%20KOM%C4%B0SYONU.pdf"
-    }
-   ]
-  },
-  {
-   "anahtar": "serkan bozan",
-   "ad_tam": "Dr. Öğr. Üyesi Serkan BOZAN",
-   "komisyonlar": [
+    },
     {
      "komisyon": "Matematik Anabilim Dalı Akreditasyon Komisyonu",
      "gorev": "Üye",
