@@ -47,6 +47,30 @@ def aranabilir(u):
     on_ek = u["ad_tam"][:len(u["ad_tam"]) - len(u["ad"])]
     return bool(AKADEMIK.search(on_ek)) or norm(u["ad"]) in ISTISNA
 
+def unvan_derecesi(ad_tam):
+    """Ayni kisi belgelerde farkli unvanla gecerse en yuksegini gostermek icin."""
+    for derece, kalip in ((5, r"Prof"), (4, r"Do[çc]"), (3, r"\bDr\b"), (2, r"Öğr"), (1, r"Arş")):
+        if re.search(kalip, ad_tam, re.I):
+            return derece
+    return 0
+
+def tani(metin):
+    """Okunamayan belgenin yapisini loga yazar. Log herkese acik oldugu icin
+    unvansiz satirlar ve adlar maskelenir; yalnizca yapi gorunur."""
+    if not metin or not metin.strip():
+        return "  metin yok (taranmis belge olabilir)"
+    sonuc = [f"  {len(metin)} karakter"]
+    for satir in [x for x in metin.splitlines() if x.strip()][:40]:
+        duz = satir.strip()
+        anahtar = re.findall(r"Ad[ıi]\s*[-/]?\s*Soyad[ıi]|Ad\s*Soyad|Görev\w*|[UÜ]nvan\w*|Sıra|S\.?No|Komisyon\w*", duz, re.I)
+        if anahtar:  # satirin kendisi degil, yalnizca anahtar sozcukler yazilir
+            sonuc.append("  A: " + ",".join(anahtar) + " sutun=" + str(len(re.split(r"\s{2,}", duz))))
+        elif UNVAN.match(duz):
+            sonuc.append("  U: " + UNVAN.match(duz).group(0) + "*** sutun=" + str(len(re.split(r"\s{2,}", duz))))
+        else:
+            sonuc.append("  -: *** sutun=" + str(len(re.split(r"\s{2,}", duz))))
+    return "\n".join(sonuc)
+
 def pdf_metni(yol):
     return subprocess.run(["pdftotext", "-layout", yol, "-"], check=True,
                           capture_output=True, text=True).stdout
@@ -83,6 +107,8 @@ def veri_olustur(belgeler, simdi):
         okunan += 1
         for u in filter(aranabilir, liste):
             k = kisiler.setdefault(norm(u["ad"]), {"ad_tam": u["ad_tam"], "komisyonlar": []})
+            if unvan_derecesi(u["ad_tam"]) > unvan_derecesi(k["ad_tam"]):
+                k["ad_tam"] = u["ad_tam"]
             k["komisyonlar"].append({"komisyon": ad, "gorev": u["gorev"], "url": url})
     return {"son_kontrol": simdi, "kaynak": SAYFA, "belge_sayisi": len(belgeler),
             "okunan_belge": okunan, "okunamayan": okunamayan,
@@ -111,6 +137,7 @@ def main():
             belgeler.append((ad, url, metin))
             time.sleep(0.5)
     veri = veri_olustur(belgeler, simdi)
+    metinler = {url: metin for _, url, metin in belgeler}
     if not veri["kisiler"]:
         sys.exit("HATA: Hicbir belgede uye tablosu okunamadi; mevcut veri korundu.")
     with open(CIKTI, "w", encoding="utf-8") as f:
@@ -118,6 +145,7 @@ def main():
     print(f"{veri['okunan_belge']}/{veri['belge_sayisi']} belge okundu, {len(veri['kisiler'])} kisi.")
     for o in veri["okunamayan"]:
         print("OKUNAMADI:", o["komisyon"])
+        print(tani(metinler.get(o["url"])))
 
 if __name__ == "__main__":
     main()
