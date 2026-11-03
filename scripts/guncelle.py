@@ -17,6 +17,7 @@ BITIS = re.compile(r"BİRİNCİ\s+BÖLÜM|^\s*Amaç\b|^\s*Madde\s+\d", re.M)
 BASLIK = re.compile(r"Ad[ıi]\s*[-/]?\s*Soyad[ıi]\b[^\n]*\n", re.I)
 
 BIRIM_SATIR = re.compile(r"^\d+\s+(.+?)\s*(\(Başkan\))?$")
+YALNIZ_GOREV = re.compile(r"Üye|Başkan|Raportör|Sekreter", re.I)
 TEK_SATIR = re.compile(r"^(.*[A-ZÇĞİÖŞÜ]{2,})(?:\s+(.*[a-zçğıöşü].*))?$")
 
 def norm(s):
@@ -63,17 +64,21 @@ def eksik_satir(metin):
     govde = metin[m.end():]
     b = BITIS.search(govde)
     govde = govde[:b.start()] if b else govde
-    say = 0
+    say = gorevsiz_ad = 0
     for satir in govde.splitlines():
-        ilk = re.split(r"\s{2,}", satir.strip())[0]
+        parca = re.split(r"\s{2,}", satir.strip())
+        ilk = parca[0]
         if ilk and UNVAN.sub("", ilk).strip() == "":
             say += 1
         elif satir[:30].strip() == "" and re.search(r"Üye|Başkan|Sorumlu|Yönetici", satir):
             say += 1
-    return say
+        elif len(parca) == 1 and UNVAN.match(ilk):
+            gorevsiz_ad += 1  # bu ad, kayik gorev satiriyla eslesir; eksik sayilmaz
+    return max(0, say - gorevsiz_ad)
 
 def duzelt(metin):
     """PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi)."""
+    metin = re.sub(r"\bK(?:adriye|\.)\s*Funda\s+NAY[İI]R\s*EK[İI]Z", "Kadriye Funda NAYİREKİZ", metin, flags=re.I)
     metin = re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
     metin = re.sub(r"Muhammet\s+Celal\s+URAS", "Muhammed Celal URAS", metin, flags=re.I)
     return re.sub(r"Serkan\s+BOZAN", "Serhan BOZAN", metin, flags=re.I)
@@ -129,9 +134,16 @@ def uyeler(metin):
     b = BITIS.search(govde)
     if b:
         govde = govde[:b.start()]
-    sonuc = []
+    sonuc, bekleyen_gorev, gorevsiz = [], None, None
     for satir in govde.splitlines():
         sutun = [p.strip() for p in re.split(r"\s{2,}", satir.strip()) if p.strip()]
+        # Gorev hucresi dikeyde kayik olabilir: "Uye" adin bir satir ustunde ya da altinda kalir.
+        if len(sutun) == 1 and YALNIZ_GOREV.fullmatch(sutun[0]):
+            if gorevsiz:
+                gorevsiz["gorev"], gorevsiz = sutun[0], None
+            else:
+                bekleyen_gorev = sutun[0]
+            continue
         if len(sutun) == 1 and UNVAN.match(sutun[0]):
             # Tek bosluklu satir: ad, BUYUK HARFLI soyadla biter, kalani gorevdir.
             t = TEK_SATIR.match(sutun[0])
@@ -141,7 +153,13 @@ def uyeler(metin):
         ad_tam, gorev = sutun[0], sutun[-1]
         ad = UNVAN.sub("", ad_tam).strip()
         if len(ad.split()) >= 2 and not re.search(r"\d", ad):
-            sonuc.append({"ad_tam": ad_tam, "ad": ad, "gorev": gorev})
+            u = {"ad_tam": ad_tam, "ad": ad, "gorev": gorev}
+            sonuc.append(u)
+            if gorev == "Görev belirtilmemiş":
+                if bekleyen_gorev:
+                    u["gorev"], bekleyen_gorev = bekleyen_gorev, None
+                else:
+                    gorevsiz = u
     return sonuc or None
 
 def aranabilir(u):
