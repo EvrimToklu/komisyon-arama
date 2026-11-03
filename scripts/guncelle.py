@@ -27,7 +27,9 @@ def norm(s):
 
 def duzelt(metin):
     """PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi)."""
-    return re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
+    metin = re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
+    metin = re.sub(r"Muhammet\s+Celal\s+URAS", "Muhammed Celal URAS", metin, flags=re.I)
+    return re.sub(r"Serkan\s+BOZAN", "Serhan BOZAN", metin, flags=re.I)
 
 def tr_baslik(s):
     """BUYUK HARFLI komisyon basligini okunur hale getirir."""
