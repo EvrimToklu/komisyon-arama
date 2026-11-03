@@ -1,0 +1,130 @@
+{
+ "son_kontrol": "2026-11-03T09:00+00:00",
+ "kaynak": "https://www.agri.edu.tr/detail.aspx?id=1454&bid=2&tid=7&dil=tr-TR",
+ "belge_sayisi": 2,
+ "okunan_belge": 2,
+ "okunamayan": [],
+ "kisiler": [
+  {
+   "anahtar": "ahmet akcay",
+   "ad_tam": "Prof. Dr. Ahmet AKÇAY",
+   "komisyonlar": [
+    {
+     "komisyon": "Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/AKADEM%C4%B0K%20TE%C5%9EV%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "ahmet harmanci",
+   "ad_tam": "Dr. Öğr. Üyesi Ahmet HARMANCI",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "akif hasiloglu",
+   "ad_tam": "Prof. Dr. Akif HAŞILOĞLU",
+   "komisyonlar": [
+    {
+     "komisyon": "Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/AKADEM%C4%B0K%20TE%C5%9EV%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "aydin kizilaslan",
+   "ad_tam": "Prof. Dr. Aydın KIZILASLAN",
+   "komisyonlar": [
+    {
+     "komisyon": "Akademik Teşvik Komisyonu",
+     "gorev": "Sorumlu Dekan Yardımcısı",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/AKADEM%C4%B0K%20TE%C5%9EV%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "bilal macun",
+   "ad_tam": "Dr. Öğr. Üyesi Bilal MACUN",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "evrim toklu",
+   "ad_tam": "Prof. Dr. Evrim TOKLU",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Başkan",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "huseyin bayram",
+   "ad_tam": "Doç. Dr. Hüseyin BAYRAM",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "mehmet yalcin",
+   "ad_tam": "Prof. Dr. Mehmet YALÇIN",
+   "komisyonlar": [
+    {
+     "komisyon": "Akademik Teşvik Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/AKADEM%C4%B0K%20TE%C5%9EV%C4%B0K%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "murat akarsu",
+   "ad_tam": "Doç. Dr. Murat AKARSU",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "samet ata",
+   "ad_tam": "Doç. Dr. Samet ATA",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  },
+  {
+   "anahtar": "zehra cevher",
+   "ad_tam": "Dr. Öğr. Üyesi Zehra CEVHER",
+   "komisyonlar": [
+    {
+     "komisyon": "Bilimsel Araştırmalar Projeler Komisyonu",
+     "gorev": "Üye",
+     "url": "https://www.agri.edu.tr/upload/egitim/Komisyonlar%202026/B%C4%B0L%C4%B0MSEL%20ARA%C5%9ETIRMALAR%20PROJELER%20KOM%C4%B0SYONU.pdf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Komisyon Arama</title>
+<style>
+:root{--brand:#0076bc;--on-brand:#fff;--navy:#002a3c;--page:#f8f8f8;--surface:#fff;--muted:#f5f5f5;--border:#eee;--strong:#767676;--ink:#000;--body:#333;--sec:#555;--faint:#767676;--warn:#8a4b00;--warnbg:#fff4e0}
+@media(prefers-color-scheme:dark){:root{--brand:#5aaee3;--on-brand:#0b1a22;--navy:#0f3142;--page:#0b1216;--surface:#15232b;--muted:#1c2d36;--border:#2a3c46;--strong:#7d8d96;--ink:#f2f5f7;--body:#d6dde1;--sec:#b3bec4;--faint:#8a989f;--warn:#ffcf8a;--warnbg:#33260f}}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--body);font:400 14px/22px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.5px}
+a{color:var(--brand)}:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+header{background:var(--navy);color:#fff;padding:24px 15px}.w{max-width:760px;margin:0 auto}
+header h1{margin:0;font-size:22px;line-height:28px;letter-spacing:0}header p{margin:4px 0 0;font-size:13px;color:#c5d0d5}
+main{padding:30px 15px}.p{background:var(--surface);padding:15px;margin-bottom:15px}
+label{display:block;font-weight:600;color:var(--ink);margin-bottom:6px}
+input{width:100%;font:16px/24px inherit;font-family:inherit;padding:10px;border:1px solid var(--strong);background:var(--surface);color:var(--ink);border-radius:0}
+.k{border-top:1px solid var(--border);padding:12px 0}.k:first-child{border-top:0;padding-top:0}.k h2{margin:0 0 6px;font-size:16px;line-height:20px;color:var(--ink);letter-spacing:0}
+ul{list-style:none;margin:0;padding:0}li{display:flex;justify-content:space-between;gap:12px;padding:4px 0;flex-wrap:wrap}li span{color:var(--sec)}
+.m{color:var(--sec)}footer{font-size:12px;color:var(--faint);line-height:20px}
+.u{background:var(--warnbg);color:var(--warn);padding:10px 15px;margin-bottom:15px;font-size:13px}.u a{color:inherit}.u summary{cursor:pointer}
+</style></head><body>
+<header><div class="w"><h1>Komisyon Arama</h1><p>Eğitim Fakültesi komisyon üyelikleri</p></div></header>
+<main class="w">
+<div class="p"><label for="q">Ad soyad</label><input id="q" type="search" placeholder="Örnek: Evrim Toklu" autocomplete="off" autofocus></div>
+<div class="p" id="s" aria-live="polite"><p class="m" style="margin:0">Veriler yükleniyor.</p></div>
+<div id="y"></div>
+<footer id="f"></footer>
+</main>
+<script>
+const norm=s=>{s=s.replace(/İ/g,'i').replace(/I/g,'i').replace(/ı/g,'i').toLowerCase();const m={'ç':'c','ğ':'g','ö':'o','ş':'s','ü':'u','â':'a','î':'i','û':'u'};return s.replace(/[çğöşüâîû]/g,c=>m[c]).replace(/\s+/g,' ').trim()};
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const q=document.getElementById('q'),S=document.getElementById('s');let V=null;
+function goster(){const t=norm(q.value);S.replaceChildren();
+ if(t.length<3){S.append(el('p','m','Aramak için en az 3 harf yazın.'));S.firstChild.style.margin=0;return}
+ const p=t.split(' ');const r=V.kisiler.filter(k=>{const w=k.anahtar.split(' ');return p.every(a=>w.some(b=>b.startsWith(a)))});
+ if(!r.length){const x=el('p','m','Bu adla okunan belgelerde üyelik bulunamadı.'+(V.okunamayan.length?' Okunamayan belgeler aşağıda listelenmiştir.':''));x.style.margin=0;S.append(x);return}
+ for(const k of r){const d=el('div','k');d.append(el('h2','',k.ad_tam));const u=el('ul');for(const c of k.komisyonlar){const l=el('li');const a=el('a','',c.komisyon);a.href=c.url;a.target='_blank';a.rel='noopener';l.append(a,el('span','',c.gorev));u.append(l)}d.append(u);S.append(d)}}
+fetch('veri.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(v=>{V=v;const y=document.getElementById('y');
+ if(v.okunamayan.length){const d=el('details','u');d.append(el('summary','',v.okunamayan.length+' belge otomatik okunamadı; bu belgelerdeki üyelikler sonuçlarda yer almaz.'));const u=el('ul');for(const o of v.okunamayan){const l=el('li'),a=el('a','',o.komisyon);a.href=o.url;a.target='_blank';a.rel='noopener';l.append(a);u.append(l)}d.append(u);y.append(d)}
+ const t=new Date(v.son_kontrol);const f=document.getElementById('f');f.append('Veriler, Komisyonlar sayfasındaki '+v.okunan_belge+' PDF\'ten otomatik alınır. Son güncelleme: '+t.toLocaleString('tr-TR',{dateStyle:'long',timeStyle:'short'})+'. Esas olan belgelerin kendisidir: ');const a=el('a','','Komisyonlar sayfası');a.href=v.kaynak;a.target='_blank';a.rel='noopener';f.append(a,'.');
+ goster();q.addEventListener('input',goster)}).catch(()=>{S.replaceChildren(el('p','m','Veriler yüklenemedi. Lütfen daha sonra yeniden deneyin.'))});
+</script></body></html>
