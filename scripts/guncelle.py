@@ -26,6 +26,8 @@ def norm(s):
 
 def uyeler(metin):
     """Yalnizca 'Adi Soyadi / Gorevi' tablosunu okur; tablo yoksa None dondurur."""
+    # PDF'lerdeki bilinen yazim hatalari (depo sahibince dogrulandi).
+    metin = re.sub(r"Zehra\s+CEHVER", "Zehra CEVHER", metin, flags=re.I)
     # Baslik bazen iki satira bolunur ("Adi Soyadi" ayri, "Gorevi" ayri).
     m = BASLIK.search(metin) or re.search(r"^\s*Görevi\s*$\n?", metin, re.M | re.I)
     if not m:
