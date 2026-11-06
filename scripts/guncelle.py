@@ -195,8 +195,23 @@ def pdf_metni(yol):
     return subprocess.run(["pdftotext", "-layout", yol, "-"], check=True,
                           capture_output=True, text=True).stdout
 
+def guvenli_url(url):
+    parca = urllib.parse.urlsplit(url)
+    yol = urllib.parse.quote(
+        parca.path, safe="/%"
+    )
+    return urllib.parse.urlunsplit((
+        parca.scheme,
+        parca.netloc,
+        yol,
+        parca.query,
+        parca.fragment
+    ))
+
+  
+
 def indir(url):
-    istek = urllib.request.Request(url, headers=UA)
+    istek = urllib.request.Request(guvenli_url(url), headers=UA)
     with urllib.request.urlopen(istek, timeout=60) as y:
         return y.read()
 
